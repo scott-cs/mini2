@@ -38,7 +38,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B -V -X package --file pom.xml
     
     # Scan Artifact
     - name: Contrast Scan Action
