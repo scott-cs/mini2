@@ -37,7 +37,7 @@ jobs:
       uses: Contrast-Security-OSS/contrast-local-scan-action@v1.0.0
       with:
         apiUrl: ${{ secrets.CONTRAST_API_URL }}
-        apiUserName: ${{ secrest.CONTRAST_USER_NAME }}
+        apiUserName: ${{ secrets.CONTRAST_USER_NAME }}
         apiKey: ${{ secrets.CONTRAST_API_KEY }}
         apiServiceKey: ${{ secrets.CONTRAST_SERVICE_KEY }}
         apiOrgId: ${{ secrets.CONTRAST_ORGANIZATION_ID }}        
