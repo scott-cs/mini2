@@ -41,7 +41,8 @@ jobs:
         apiKey: ${{ secrets.CONTRAST_API_KEY }}
         apiServiceKey: ${{ secrets.CONTRAST_SERVICE_KEY }}
         apiOrgId: ${{ secrets.CONTRAST_ORGANIZATION_ID }}        
-        projectId: 55515aef-1bfd-464a-9b25-2f020757104b
+        projectName: minitest
+        timeout: 1800
 
     #Upload the results to GitHub
     - name: Upload SARIF file
