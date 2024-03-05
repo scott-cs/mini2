@@ -43,3 +43,4 @@ jobs:
         apiOrgId: ${{ secrets.CONTRAST_ORGANIZATION_ID }}        
         projectName: minitest
         timeout: 1800
+        severity: critical
